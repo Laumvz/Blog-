@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Plantillas Escolares</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, 
+ 0%, 
+ 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .section {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            color: 
+;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .subtitle {
+            color: 
+;
+            font-size: 1.2em;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .category-title {
+            color: 
+;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+
+        .template-card {
+            background: 
+;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .template-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .template-icon {
+            width: 100%;
+            height: 150px;
+            background: linear-gradient(135deg, 
+ 0%, 
+ 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            margin-bottom: 15px;
+        }
+
+        .template-name {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .download-text {
+            color: 
+;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            
+            .grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <!-- Página 1: Tareas, Notas y Proyectos -->
+        <div class="section">
+            <h1>Galería de Plantillas</h1>
+            <p class="subtitle">Recursos descargables para estudiantes</p>
+            
+            <div class="grid">
+                <a href="plantillas/planificador-tareas.pdf" download class="template-card">
+                    <div class="template-icon">📋</div>
+                    <div class="template-name">Planificador de Tareas</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/notas-adhesivas.pdf" download class="template-card">
+                    <div class="template-icon">📝</div>
+                    <div class="template-name">Notas Adhesivas</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/reporte-ciencias.pdf" download class="template-card">
+                    <div class="template-icon">🔬</div>
+                    <div class="template-name">Reporte de Ciencias</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/horario-semanal.pdf" download class="template-card">
+                    <div class="template-icon">📅</div>
+                    <div class="template-name">Horario Semanal</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/registro-lectura.pdf" download class="template-card">
+                    <div class="template-icon">📚</div>
+                    <div class="template-name">Registro de Lectura</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/hoja-matematicas.pdf" download class="template-card">
+                    <div class="template-icon">🔢</div>
+                    <div class="template-name">Hoja de Matemáticas</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Página 2: Escritura y Creatividad -->
+        <div class="section">
+            <h2 class="category-title">Escritura y Creatividad</h2>
+            
+            <div class="grid">
+                <a href="plantillas/diario-personal.pdf" download class="template-card">
+                    <div class="template-icon">📖</div>
+                    <div class="template-name">Diario Personal</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/mapa-mental.pdf" download class="template-card">
+                    <div class="template-icon">🧠</div>
+                    <div class="template-name">Mapa Mental</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/guion-historia.pdf" download class="template-card">
+                    <div class="template-icon">✍️</div>
+                    <div class="template-name">Guión de Historia</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/organizador-ensayo.pdf" download class="template-card">
+                    <div class="template-icon">📄</div>
+                    <div class="template-name">Organizador de Ensayo</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/lluvia-ideas.pdf" download class="template-card">
+                    <div class="template-icon">💡</div>
+                    <div class="template-name">Lluvia de Ideas</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/storyboard.pdf" download class="template-card">
+                    <div class="template-icon">🎬</div>
+                    <div class="template-name">Storyboard</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Página 3: Organización y Productividad -->
+        <div class="section">
+            <h2 class="category-title">Organización y Productividad</h2>
+            
+            <div class="grid">
+                <a href="plantillas/agenda-diaria.pdf" download class="template-card">
+                    <div class="template-icon">🗓️</div>
+                    <div class="template-name">Agenda Diaria</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/lista-tareas.pdf" download class="template-card">
+                    <div class="template-icon">✅</div>
+                    <div class="template-name">Lista de Tareas</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/calendario-mensual.pdf" download class="template-card">
+                    <div class="template-icon">📆</div>
+                    <div class="template-name">Calendario Mensual</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/seguimiento-habitos.pdf" download class="template-card">
+                    <div class="template-icon">🎯</div>
+                    <div class="template-name">Seguimiento de Hábitos</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/planificador-proyecto.pdf" download class="template-card">
+                    <div class="template-icon">📊</div>
+                    <div class="template-name">Planificador de Proyecto</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/registro-calificaciones.pdf" download class="template-card">
+                    <div class="template-icon">📈</div>
+                    <div class="template-name">Registro de Calificaciones</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+            </div>
+        </div>
+
+        <!-- Página 4: Ciencias y Matemáticas -->
+        <div class="section">
+            <h2 class="category-title">Ciencias y Matemáticas</h2>
+            
+            <div class="grid">
+                <a href="plantillas/informe-laboratorio.pdf" download class="template-card">
+                    <div class="template-icon">🧪</div>
+                    <div class="template-name">Informe de Laboratorio</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/tabla-periodica.pdf" download class="template-card">
+                    <div class="template-icon">⚛️</div>
+                    <div class="template-name">Tabla Periódica</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/papel-cuadriculado.pdf" download class="template-card">
+                    <div class="template-icon">📐</div>
+                    <div class="template-name">Papel Cuadriculado</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/formulario-matematicas.pdf" download class="template-card">
+                    <div class="template-icon">∑</div>
+                    <div class="template-name">Formulario Matemáticas</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/diagrama-venn.pdf" download class="template-card">
+                    <div class="template-icon">⭕</div>
+                    <div class="template-name">Diagrama de Venn</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+                
+                <a href="plantillas/metodo-cientifico.pdf" download class="template-card">
+                    <div class="template-icon">🔍</div>
+                    <div class="template-name">Método Científico</div>
+                    <div class="download-text">Toca plantilla - Descargar</div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
