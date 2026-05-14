@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Galería de Imágenes</title>
   <script src="https://cdn.tailwindcss.com/3.4.17"></script>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet">
+  <link href="https://ibb.co/album/qCbmnp/css2?family=DM+Sans:wght@400;500;700&amp;family=Playfair+Display:wght@700&amp;display=swap" rel="stylesheet">
   <style>
     body { font-family: 'DM Sans', sans-serif; }
     .thumb-active { ring: 2px; box-shadow: 0 0 0 3px rgba(255,255,255,0.8); }
